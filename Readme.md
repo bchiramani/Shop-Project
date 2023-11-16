@@ -84,3 +84,4 @@ check if the products are added or not to the table
 the 3 modules will be added to the module section in the pom.xml file
 * check the pom.xml of the root project and the 3 modules : product-service, order-service and inventory-service(we copied the dependencies, an we added the parent as org.springframework.boot< and the dependencies manager )
 * delete the src forlder of the 3 services and replace  them by the already developed src folders
+=> verify that everything is ok by running the maven clean verify command
